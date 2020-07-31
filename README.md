@@ -6,8 +6,8 @@ interest of getting started with documentation.
 
 ## Bioinformatics
 ### Basics
-(Here is a link)[bioinformatics/basics.md] to some basic background information.
+[Here is a link](bioinformatics/basics.md) to some basic background information.
 
 ### Tools
-(Basic background information)[bioinformatics/tools/index.md] on some bioinformatics
+[Basic background information](bioinformatics/tools/index.md) on some bioinformatics
 tools that we are using
