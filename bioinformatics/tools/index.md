@@ -44,15 +44,18 @@ Similarly, they can be deactivated with `conda deactivate`.
 
 ## Shi7
 
-`Shi7` is a short read, auto parameterizing quality control tool for Illumina-produced
+`shi7` is a short read, auto parameterizing quality control tool for Illumina-produced
 sequences. 
+
+*NOTE:* there is currently a breaking change in v1.0.0, I have submitted a PR to fix
+this but until that is merged v0.9.9 should be used.
 
 #### Installation
 
-`Shi7` is probably best installed through `conda`, so that the package is updated 
+`shi7` is probably best installed through `conda`, so that the package is updated 
 accordingly and so that you don't have to worry about managing dependencies.
 
-To install `Shi7` on HCC run the following commands:
+To install `shi7` on HCC run the following commands:
 
 ```bash
 $ module load anaconda/4.8
@@ -64,5 +67,5 @@ To activate the `shi7` environment, which will place the Shi7 executables in you
 `PATH`:
 
 ```bash
-conda activate shi7`
+$ conda activate shi7
 ```
