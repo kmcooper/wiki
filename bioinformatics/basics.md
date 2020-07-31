@@ -7,20 +7,24 @@ troubleshooting threads, etc. `PATH` is an environmental variable that describes
 executable files (software) might be located in a system, so that when you type `mkdir` 
 into the `bash` shell, the system knows where to look to find the program `mkdir`.
 
-You can see your `PATH` at any time by using `$ echo $PATH`.
+You can see your `PATH` at any time by using `$ echo $PATH`. The output is a list 
+of directories that contain executable files separated (delimited) by a colon '`:`'.
 
 Module usage on HCC primarily relies on `PATH` modification. For example, when you first
 log on, your `PATH` might look like this:
 
 ```bash
-/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/util/opt/bin:/opt/puppetlabs/bin:/home/biocore/your_user_name/bin
+/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:
+/util/opt/bin:/opt/puppetlabs/bin:/home/biocore/your_user_name/bin
 ```
 
 Then, when you load a module, additions are made to your path:
 
 ```bash
 $ module load qiime2/2019.10
-/util/opt/anaconda/deployed-conda-envs/packages/qiime2/envs/qiime2-2019.10/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/util/opt/bin:/opt/puppetlabs/bin:/home/biocore/your_user_name/bin
+/util/opt/anaconda/deployed-conda-envs/packages/qiime2/envs/qiime2-2019.10/bin:
+/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:
+/sbin:/util/opt/bin:/opt/puppetlabs/bin:/home/biocore/your_user_name/bin
 ```
 
 ## Important Notes
