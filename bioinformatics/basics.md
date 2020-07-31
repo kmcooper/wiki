@@ -22,6 +22,7 @@ Then, when you load a module, additions are made to your path:
 
 ```bash
 $ module load qiime2/2019.10
+$ echo $PATH
 /util/opt/anaconda/deployed-conda-envs/packages/qiime2/envs/qiime2-2019.10/bin:
 /usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:
 /sbin:/util/opt/bin:/opt/puppetlabs/bin:/home/biocore/your_user_name/bin
