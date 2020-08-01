@@ -2,7 +2,7 @@
 * [General Installation Advice](#general-installation-advice)
 * [Using Anaconda](#using-anaconda)
 * [Using Virtual Environments](#using-virtual-environments)
-* [Shi7}(#shi7)
+* [Shi7](#shi7)
 
 ## General Installation Advice
 
