@@ -1,4 +1,9 @@
 # Tools
+* [General Installation Advice](#general-installation-advice)
+* [Using Anaconda](#using-anaconda)
+* [Using Virtual Environments](#using-virtual-environments)
+* [Shi7}(#shi7)
+
 ## General Installation Advice
 
 For most open source software installation is best done through some kind of a package 
