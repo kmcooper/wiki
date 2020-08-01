@@ -47,8 +47,8 @@ Similarly, they can be deactivated with `conda deactivate`.
 `shi7` is a short read, auto parameterizing quality control tool for Illumina-produced
 sequences. 
 
-*NOTE:* there is currently a breaking change in v1.0.0, I have submitted a PR to fix
-this but until that is merged v0.9.9 should be used.
+*NOTE:* Shi7 currently has some issues but I am working with knights-lab to get these
+resolved
 
 #### Installation
 
