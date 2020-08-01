@@ -63,9 +63,22 @@ $ conda config --add channels knights-lab
 $ conda create -n shi7 shi7
 ```
 
+The first command loads the Anaconda module. The second adds the `knights-lab`
+`channel` to your Anaconda channels. The third command creates a virtual environment 
+called `shi7` from the `shi7` package, which Anaconda finds in the `knights-lab` 
+channel. 
+
 To activate the `shi7` environment, which will place the Shi7 executables in your 
 `PATH`:
 
 ```bash
 $ conda activate shi7
+```
+
+#### Removal
+
+To remove the shi7 environment, which was built from the shi7 package, simply run
+
+```bash
+$ conda remove --name shi7 --all
 ```
