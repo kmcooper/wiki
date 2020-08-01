@@ -77,7 +77,7 @@ $ conda activate shi7
 
 #### Removal
 
-To remove the shi7 environment, which was built from the shi7 package, simply run
+To remove the `shi7` environment, which was built from the `shi7` package, simply run:
 
 ```bash
 $ conda remove --name shi7 --all
