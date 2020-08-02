@@ -32,7 +32,7 @@ There are a few practices that can be very valuable for documentation and troubl
 that are good to include in any pipeline scripts. STDOUT and STDERR should be appended 
 to log files so that there is a single historical record of all runs. Logging is very 
 important in scientific computing. It's also very helpful to include the `git` branch 
-and abbreviate commit hash in logs. The header for a pipeline script might look like
+and abbreviated commit hash in logs. The header for a pipeline script might look like
 this:
 
 ```bash
