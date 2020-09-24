@@ -11,5 +11,6 @@ interest of getting started with documentation.
 ## Bioinformatics
 
 * [Basics](bioinformatics/basics.md) 
+* [GitHub](bioinformatics/github.md)
 * [Projects](bioinformatics/projects.md)
 * [Tools](bioinformatics/tools/index.md)

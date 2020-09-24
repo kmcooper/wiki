@@ -76,6 +76,23 @@ To activate the `shi7` environment, which will place the Shi7 executables in you
 ```bash
 $ conda activate shi7
 ```
+##### Manual Install
+
+I am working with Knights lab
+```bash
+conda create -n shi7-manual python=3.8 setuptools
+conda activate shi7-manual
+
+cd ~
+
+git clone git@github.com:knights-lab/shi7.git
+cd shi7
+# modify
+python3 setup.py install
+
+# verify
+which shi7
+```
 
 #### Removal
 
