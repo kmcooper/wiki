@@ -13,7 +13,7 @@ This is the current Clayton Lab internal wiki.
 * [Projects](bioinformatics/projects.md)
 * [Tools](bioinformatics/tools/index.md)
 
-# TODO
+## TODO
 
 Stuff to add to the wiki:
 
