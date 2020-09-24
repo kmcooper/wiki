@@ -1,5 +1,12 @@
 # Using Github
 
+* [SSH Keys](#ssh-keys)
+* [Cloning a Repository](#cloning-a-repository)
+* [Checking local repo status](#checking-repository-status)
+* [Updating local repos](#updating-local-repositories)
+* [Adding and committing changes](#adding-and-committing-changes)
+* [Pushing changes to remote](#pushing-changes-to-remote)
+
 This guide is written for users who will be interacting with GitHub using 
 a macOS or Linux operating system in a `bash`, `zsh` or similar shell. 
 Windows users may want to look into using Windows Subsystem Linux (WSL)
@@ -116,3 +123,38 @@ with `ls`, and navigate into this folder with `cd`.
 ## Checking repository status
 
 You can use `git status` to see the current status of your local repository. 
+
+## Updating local repositories
+
+To update your local repository (the directory on your computer), so that everything 
+is in sync with the remote repo, simply use:
+
+```bash
+$ git pull origin
+```
+
+## Adding and committing changes
+
+Once you've made changes to files in your local repo, you can use `git status` to 
+see all the changes. Then, you can stage files to be committed by using `git add`:
+
+```bash
+$ git add file_name
+```
+
+After adding all the files that are relevant to your changes, you can use 
+
+```bash
+$ git commit -m "an informative commit message"
+```
+
+to commit these changes.
+
+## Pushing changes to remote
+
+To push the changes that you've committed to the remote repository, simply use
+`git push origin [branch name]`, so to push to the master branch you would do
+
+```bash
+$ git push origin master
+```
