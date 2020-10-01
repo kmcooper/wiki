@@ -6,6 +6,10 @@ This is the current Clayton Lab internal wiki.
 
 * [Using the wiki](usage/index.md)
 
+## Wet Lab
+
+* [Basics](wetlab/index.md)
+
 ## Bioinformatics
 
 * [Basics](bioinformatics/basics.md) 
