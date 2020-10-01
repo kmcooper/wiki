@@ -1,8 +1,6 @@
 # Clayton Lab Internal Wiki
 
-This is the Clayton Lab internal wiki. We will likely have a more robust setup (an 
-actual wiki) in the future, but we will make do with this for the time being in the 
-interest of getting started with documentation.
+This is the current Clayton Lab internal wiki.
 
 ## Wiki Basics
 
@@ -14,3 +12,11 @@ interest of getting started with documentation.
 * [GitHub](bioinformatics/github.md)
 * [Projects](bioinformatics/projects.md)
 * [Tools](bioinformatics/tools/index.md)
+
+## TODO
+
+Stuff to add to the wiki:
+
+* Background/suggested reading
+* Contact info ?
+* Dry lab best practices
