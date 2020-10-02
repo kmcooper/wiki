@@ -25,7 +25,7 @@ account. This is the default situation for HCC.
 
 * Any time that you see a `#` at the beginning of a line of a code block, this 
 indicates that the line is meant to be run in a `bash` shell as root (or as a user
-using `sudo`). You are not able to run commands as root or with elevated privileges, 
+using `sudo`). You are not able to run commands as root or with elevated privileges on HCC, 
 so this does not apply to HCC, but may apply to other Linux machines (or macOS) that
 we use.
 
