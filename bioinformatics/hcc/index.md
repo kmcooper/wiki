@@ -19,7 +19,8 @@ HCC docs:
 ## Important Notes
 
 * Within this wiki, any time that you see a `$` at the beginning of a line of a code block, 
-this indicates that the line is meant to be run in a `bash` shell under a non-root user
+this indicates that the line is meant to be run in a `bash` shell (the majority of other 
+popular shells, like `zsh`, are fine as well) under a non-root user
 account. This is the default situation for HCC.
 
 * Any time that you see a `#` at the beginning of a line of a code block, this 
