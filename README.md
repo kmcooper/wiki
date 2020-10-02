@@ -16,6 +16,7 @@ This is the current Clayton Lab internal wiki.
 * [GitHub](bioinformatics/github.md)
 * [Projects](bioinformatics/projects.md)
 * [Tools](bioinformatics/tools/index.md)
+* [HCC/Linux](bioinformatics/hcc/index.md)
 
 ## TODO
 
