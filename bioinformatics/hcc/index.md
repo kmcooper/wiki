@@ -1,6 +1,8 @@
 # HCC/Linux
 
+* [Important Notes](#important-notes)
 * [Basic Usage](#basic-usage)
+* [What is `PATH`?](#what-is-path)
 * [Troubleshooting](#troubleshooting)
 
 This section provides some documentation regarding our use of HCC, general advice,
@@ -20,7 +22,7 @@ HCC docs:
 this indicates that the line is meant to be run in a `bash` shell under a non-root user
 account. This is the default situation for HCC.
 
-Any time that you see a `#` at the beginning of a line of a code block, this 
+* Any time that you see a `#` at the beginning of a line of a code block, this 
 indicates that the line is meant to be run in a `bash` shell as root (or as a user
 using `sudo`). You are not able to run commands as root or with elevated privileges, 
 so this does not apply to HCC, but may apply to other Linux machines (or macOS) that
@@ -32,6 +34,10 @@ There is a nice list of basic Linux commands with descriptions and examples
 at [hcc.unl.edu/docs/connecting/basic_linux_commands](https://hcc.unl.edu/docs/connecting/basic_linux_commands).
 
 These commands will allow you to navigate around HCC in an interactive shell.
+
+You can also precede the vast majority of BSD/GNU/POSIX shell commands and coreutils with 
+`man` to access a manual. Many common programs will have `man` pages as well. For example,
+to access the man page for `cd`, type `man cd`.
 
 ## What is `PATH`?
 
