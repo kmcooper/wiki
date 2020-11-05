@@ -5,6 +5,22 @@
 * [What is `PATH`?](#what-is-path)
 * [Troubleshooting](#troubleshooting)
 
+## Beginner's Corner
+
+There are a few very good tuitorials to help introduce beginners to the Unix shell.
+The interactive shell, or command line, is a text-based way of interacting with the 
+operating system and the programs installed on the machine.
+
+[HCC's Kickstart](https://hcc.unl.edu/hcc-kickstart-2020) lessons use 
+[Software Carpentry's](http://software-carpentry.org) workshops. A few of these tutorials 
+are very good for beginners:
+
+* [Shell Novice](http://swcarpentry.github.io/shell-novice/)
+* [Version Control with Git](swcarpentry.github.io/git-novice/)
+* [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/)
+* [Plotting and Programming with Python](http://swcarpentry.github.io/python-novice-gapminder/)
+* [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/)
+
 This section provides some documentation regarding our use of HCC, general advice,
 troubleshooting, etc.
 
