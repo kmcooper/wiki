@@ -1,5 +1,7 @@
 # HCC/Linux
 
+* [Beginner's Corner](#beginners-corner) 
+* [HCC Docs](#hcc-docs)
 * [Important Notes](#important-notes)
 * [Basic Usage](#basic-usage)
 * [What is `PATH`?](#what-is-path)
@@ -26,6 +28,8 @@ troubleshooting, etc.
 
 Almost everything here is general Linux advice as well, and will apply to 
 most Linux servers and workstations. 
+
+## HCC Docs
 
 The first place to look if you have any questions or issues with HCC is the
 HCC docs:
