@@ -1,6 +1,7 @@
 # [Home](../README.md)
 # Using Github
 
+* [A Basic Usage Example](#a-basic-usage-example)
 * [SSH Keys](#ssh-keys)
 * [Cloning a Repository](#cloning-a-repository)
 * [Checking local repo status](#checking-repository-status)
@@ -14,6 +15,34 @@ Windows users may want to look into using Windows Subsystem Linux (WSL)
 or consulting other [guides](https://www.pluralsight.com/guides/using-git-and-github-on-windows).
 
 There are also lots of other guides throughout the internet that you can consult.
+
+## A Basic Usage Example
+
+Let's say you want to conduct some analysis in R in one of the current `clayton-lab` projects, 
+which is managed in a repository.
+
+You first want to [clone the repository](#cloning-a-repository):
+
+```bash
+$ git clone git@github.com:clayton-lab/monkey-experiment.git
+```
+
+This will clone the repository to your machine. Then, do your work in an appropriate 
+directory. In this case, you might make an R notebook in the `notebooks` directory 
+at the path `./monkey-experiment/notebooks/my-R-notebook.Rmd`. So you've made a nice 
+notebook, and now you want to add the notebook to the repository, commit the changes, and
+push the changes to the remote origin (i.e. to GitHub):
+
+```bash
+$ git add ./monkey-experiment/notebooks/my-R-notebook.Rmd
+$ git commit -m "I made a very nice notebook that everyone will enjoy"
+$ git push origin master
+```
+
+Now the notebook is in the origin repository on GitHub, there is a record of all changes made,
+and everyone has access to it. This is super important for managing collaboration, backup, and 
+reversion (i.e., if we discover there is a problem later, we can always revert to the state of 
+any prior commit).
 
 ## SSH Keys
 Using SSH keys to interact with GitHub will make things easier when interacting
