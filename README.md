@@ -12,8 +12,9 @@ This is the current Clayton Lab internal wiki.
 
 ## Bioinformatics
 
-* [HCC/Linux](bioinformatics/hcc/index.md)
 * [Basics](bioinformatics/basics.md) 
+* [Best Practices](bioinformatics/best_practices.md)
+* [HCC/Linux](bioinformatics/hcc/index.md)
 * [GitHub](bioinformatics/github.md)
 * [Projects](bioinformatics/projects.md)
 * [Tools](bioinformatics/tools/index.md)
