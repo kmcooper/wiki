@@ -57,7 +57,7 @@ $ ls ~/.ssh
 In this command, do not type the `$`, this indicates that are entering commands
 under a user account, if you have a current version of macOS, this may be a `zsh`
 shell and show up as `%`. This is a convention in this and other guides simply 
-to incidate that the command should be run as a user, if a command is meant to be
+to indicate that the command should be run as a user, if a command is meant to be
 run as root, it will be preceeded by `#`. So, simply type `ls ~/.ssh`.
 
 One other note, in this and other guides, you may see a tilda `~` in file paths, 
