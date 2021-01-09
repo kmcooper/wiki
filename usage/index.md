@@ -1,3 +1,4 @@
+# [Home](../README.md)
 # Using the wiki
 
 This is not a permanent solution and is more just a collection of markdown files 

@@ -1,7 +1,9 @@
 # [Home](../README.md)
 # Best Practices
 
-## Development and Coding Best Practices
+Here are some dry lab best practices
+
+## Development and coding best practices
 
 * Use version control (`git`)
 * Document code appropriately
@@ -16,8 +18,8 @@
   * Write input and output filepaths to logs
   * Write important parameters to logs
   * Put the git branch and/or abbreviate commit hash in the logs. You can get this with sys calls:
-    `$ git rev-parse --abbrev-ref HEAD`
-    `$ git log -1 --format=%h`
+    * `$ git rev-parse --abbrev-ref HEAD`
+    * `$ git log -1 --format=%h`
   * Put any important notes in logs
 * Write unit tests
   * Unit tests are important. 100% code coverage may not be necessary, but use good judgment here
@@ -27,3 +29,8 @@
 
 ### External Resources
 * [Minimal safe Bash script template](https://betterdev.blog/minimal-safe-bash-script-template/)
+
+## Examples of bioinformatics tools that utilize good practices
+* [GATK (anything from the Broad Institute)](https://github.com/broadinstitute/gatk)
+* [QIIME2](https://github.com/qiime2/qiime2)
+* [Nextstrain](https://github.com/nextstrain)

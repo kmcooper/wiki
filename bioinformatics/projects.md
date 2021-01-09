@@ -1,3 +1,4 @@
+# [Home](../README.md)
 # Projects
 
 This page serves as documentation for a general structure for the bioinformatics side
