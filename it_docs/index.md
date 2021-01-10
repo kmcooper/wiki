@@ -22,7 +22,7 @@ This may take quite awhile to run, so the best way to do this is using `screen`.
 After logging in, just do the following:
 
 ```bash
-$ screen bash /common/claytonlab/shared/work_backup/backup.sh
+$ screen -dm bash /common/claytonlab/shared/work_backup/backup.sh
 ```
 
 Then press `CTRL + a` and then `d` to detach from the screen session.
