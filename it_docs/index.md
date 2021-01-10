@@ -15,7 +15,7 @@ directory in `/common/claytonlab`. Although we should always be in a position
 where we can reproduce any prior analyses, it can make our life a lot easier 
 if we just have all the prior results on hand until we start running out of space.
 
-Because of reasons, HCC does not allow for us to utilize various automated 
+Because of reasons, HCC does not allow for us to utilize various automation 
 tools, thus I have left a script at `/common/claytonlab/shared/work_backup/backup.sh`.
 
 This may take quite awhile to run, so the best way to do this is using `screen`.
@@ -25,6 +25,17 @@ After logging in, just do the following:
 $ screen -dm bash /common/claytonlab/shared/work_backup/backup.sh
 ```
 
-Then press `CTRL + a` and then `d` to detach from the screen session.
-
 This backup script is available for reference [here](./backup.sh).
+
+In order to sort-of automate this, [this script](auto_backup.sh) can help to do this. Basically,
+every time you login, it will check to see if it's been a week since the work directory 
+has been backed up. If this is the case, it will then do the backup. The date of the 
+last backup is stored in a text file at `/common/claytonlab/shared/work_backup/last_backup_date`
+
+To set your account up to do this, run the following:
+
+```bash
+$ echo "bash /common/claytonlab/shared/work_backup/auto_backup.sh" >> ~/.bashrc
+```
+
+If we start running out of space this must be disabled.
