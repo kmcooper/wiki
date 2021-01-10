@@ -19,6 +19,10 @@ This is the current Clayton Lab internal wiki.
 * [Projects](bioinformatics/projects.md)
 * [Tools](bioinformatics/tools/index.md)
 
+## IT Infrastructure Docs
+
+* [IT Docs Index](it_docs/index.md)
+
 ## TODO
 
 Stuff to add to the wiki:
